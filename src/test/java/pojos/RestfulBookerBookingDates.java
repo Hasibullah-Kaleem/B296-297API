@@ -8,9 +8,9 @@ public class RestfulBookerBookingDates {
     public RestfulBookerBookingDates() {
     }
 
-    public RestfulBookerBookingDates(String checkout, String checkin) {
-        this.checkout = checkout;
+    public RestfulBookerBookingDates(String checkin, String checkout) {
         this.checkin = checkin;
+        this.checkout = checkout;
     }
 
     public String getCheckin() {

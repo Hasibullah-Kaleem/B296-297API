@@ -1,6 +1,7 @@
-package get_request;
+package get_requests;
 
 import base_url.RestfulBookerBaseUrl;
+
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 import pojos.RestfulBookerBookingDates;
@@ -9,7 +10,7 @@ import pojos.RestfulBookerPayload;
 import static io.restassured.RestAssured.given;
 import static org.testng.Assert.assertEquals;
 
-public class Get11 extends RestfulBookerBaseUrl {
+public class Get11 extends RestfulBookerBaseUrl{
     /*
     Given
     https://restful-booker.herokuapp.com/booking/2634
@@ -33,7 +34,7 @@ public class Get11 extends RestfulBookerBaseUrl {
     @Test
     public void test01() {
         //1 - Set the URL
-        spec.pathParams("first","booking","second", 2634);
+        spec.pathParams("first","booking","second", 2008);
         //2 - Set the payload / expected data
         RestfulBookerBookingDates bookingDates = new RestfulBookerBookingDates("2018-01-01", "2019-01-01");
         RestfulBookerPayload expectedData = new RestfulBookerPayload("Bob", "Smith", 111, true, bookingDates, "Breakfast");

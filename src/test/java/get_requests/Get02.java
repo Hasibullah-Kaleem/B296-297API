@@ -1,7 +1,6 @@
-package get_request;
+package get_requests;
 
 import io.restassured.response.Response;
-import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;

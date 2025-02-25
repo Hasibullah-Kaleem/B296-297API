@@ -1,4 +1,4 @@
-package get_request;
+package get_requests;
 
 import base_url.TodoBaseUrl;
 import io.restassured.path.json.JsonPath;
