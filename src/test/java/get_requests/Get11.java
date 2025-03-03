@@ -34,7 +34,7 @@ public class Get11 extends RestfulBookerBaseUrl{
     @Test
     public void test01() {
         //1 - Set the URL
-        spec.pathParams("first","booking","second", 2008);
+        spec.pathParams("first","booking","second", 408);
         //2 - Set the payload / expected data
         RestfulBookerBookingDates bookingDates = new RestfulBookerBookingDates("2018-01-01", "2019-01-01");
         RestfulBookerPayload expectedData = new RestfulBookerPayload("Bob", "Smith", 111, true, bookingDates, "Breakfast");

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Dell/IdeaProjects/B296-297API/src/test/java/smoke_test">
+        <classes>
+            <class name="smoke_test.CreateUser">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+            <class name="smoke_test.ReadUser">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+            <class name="smoke_test.UpdateUser">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+            <class name="smoke_test.DeleteUser">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
